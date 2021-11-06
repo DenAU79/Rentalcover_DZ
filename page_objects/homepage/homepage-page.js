@@ -11,6 +11,7 @@ class Homepage {
     get $selectedToDate() { return $("#QuoteForm_ToDate"); }
     get $$daysFromCurrentAndNextMonth() { return $$('[data-handler="selectDay"]'); }
 
+    // Helper method to pick a random day
     getRandomDay(arr) {
       // Get random index value
       const randomIndex = Math.floor(Math.random() * arr.length);
@@ -36,6 +37,7 @@ class Homepage {
         this.$vehicleTypeDropDownMenu.selectByAttribute('value', vehicleType);
     }
 
+    // Helper method to select rental start date
     async selectFromDate() {
         // Click on From Date calendar input box
         this.$fromDateCalendar.waitForClickable();
@@ -48,6 +50,7 @@ class Homepage {
         this.getRandomDay(this.$$daysFromCurrentAndNextMonth).click();        
     }
 
+    // Helper method to select rental end date
     async selectToDate() {
         // Click on To Date calendar input box
         this.$toDateCalendar.waitForClickable();
@@ -58,7 +61,6 @@ class Homepage {
         }, { timeout: 10000, timeoutMsg: 'Twenty nine elements were not visible' });
         // Pick the random date
         this.getRandomDay(this.$$daysFromCurrentAndNextMonth).click();        
-    }
-    
+    }    
 }
 module.exports = new Homepage();
