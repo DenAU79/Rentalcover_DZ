@@ -21,7 +21,7 @@ Data of the vehicle types stores in vehicleType.json.
 1. Git clone https://github.com/DenAU79/Rentalcover_DZ.git
 2. Run following command in a terminal: npm i
 3. To run all specs - npx wdio wdio.conf.js
-4. To run allure-results - allure serve _results_/allure-raw
+4. To run allure-results - allure serve allure-results/allure-raw
 
 ## 😋 Who cooked it?
 
@@ -30,3 +30,4 @@ Denys Zdielnik a highly passionate QA automation engineer 😊
 ## ⚖️ License
 
 **Rentalcover_DZ** is generously distributed under the _[ISC](https://opensource.org/licenses/ISC)_.
+
