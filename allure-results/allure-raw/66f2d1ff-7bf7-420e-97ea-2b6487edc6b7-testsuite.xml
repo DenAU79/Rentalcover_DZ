@@ -1,9 +1,9 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1636316608656' stop='1636316651914'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1636324328680' stop='1636324340985'>
     <name>Rentalcover.com</name>
     <title>Rentalcover.com</title>
     <test-cases>
-        <test-case start='1636316608673' status='passed' stop='1636316651912'>
+        <test-case start='1636324328680' status='passed' stop='1636324340985'>
             <name>Get An Instant Quote In 15 Seconds</name>
             <title>Get An Instant Quote In 15 Seconds</title>
             <labels>

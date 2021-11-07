@@ -146,7 +146,7 @@ exports.config = {
     //   videoSlowdownMultiplier: 1, // Higher to get slower videos, lower for faster videos [Value 1-100]
     // }],
     ['allure', {
-      outputDir: './_results_/allure-raw',
+      outputDir: './allure-results/allure-raw',
       disableWebdriverStepsReporting: true,
       disableWebdriverScreenshotsReporting: true,
     }]
