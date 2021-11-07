@@ -8,10 +8,13 @@ An automated test for “Get An Instant Quote” functionality
 
 ## ⚙️ Requirements
 
-Node version v13.14.0 or higher
-Google Chrome Version 95.0.4638.69
+Node version v13.14.0 or higher.
+
+Google Chrome Version 95.0.4638.69.
+
 Assuming that section "I live in" set to "Australia".
-Data of the vehicle types stores in vehicleType.json
+
+Data of the vehicle types stores in vehicleType.json.
 
 ## 🎮 Usage
 
