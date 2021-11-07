@@ -8,7 +8,8 @@ An automated test for “Get An Instant Quote” functionality
 
 ## ⚙️ Requirements
 
-Data of the vehicle types in vehicleType.json
+Assuming that section "I live in" set to "Australia".
+Data of the vehicle types stores in vehicleType.json
 
 ## 🎮 Usage
 
