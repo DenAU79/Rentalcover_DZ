@@ -13,16 +13,13 @@ Data of the vehicle types in vehicleType.json
 ## 🎮 Usage
 
 1. Git clone https://github.com/DenAU79/Rentalcover_DZ.git
-   2.Run following command in a terminal: npm i
-   3.You are set
+2. Run following command in a terminal: npm i
+3. To run all specs - npx wdio wdio.conf.js
+4. To run allure-results - allure serve
 
 ## 😋 Who cooked it?
 
-[![Denys Zdielnik](https://s.gravatar.com/avatar/7bad601cbbcca5f472d8d5e646184bd1?s=200)](https://ph7.me "Denys Zdielnik personal website")
-
-[![@phenrysay][twitter-image]](https://twitter.com/phenrysay) [![pH-7][github-image]](https://github.com/pH-7)
-
-**[Denys Zdielnik](https://ph7.me)**, a highly passionate, zen &amp; pragmatic software engineer 😊
+**[Denys Zdielnik](https://ph7.me)**, a highly passionate QA automation engineer 😊
 
 ## ⚖️ License
 
