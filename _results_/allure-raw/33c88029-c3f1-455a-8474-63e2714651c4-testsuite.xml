@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1636318553582' stop='1636318594094'>
+    <name>Rentalcover.com</name>
+    <title>Rentalcover.com</title>
+    <test-cases>
+        <test-case start='1636318553606' status='passed' stop='1636318594089'>
+            <name>Get An Instant Quote In 15 Seconds</name>
+            <title>Get An Instant Quote In 15 Seconds</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='1d4ce88a-63bc-4138-b24b-ea6c493a9506-attachment.mp4' type='video/mp4' size='158'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

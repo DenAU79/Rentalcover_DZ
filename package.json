@@ -28,6 +28,7 @@
   "dependencies": {
     "@wdio/sync": "^7.16.4",
     "chai": "^4.3.4",
-    "github-readme-generator": "^1.3.0"
+    "github-readme-generator": "^1.3.0",
+    "wdio-video-reporter": "^3.1.3"
   }
 }

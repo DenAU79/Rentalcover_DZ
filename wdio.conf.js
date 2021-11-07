@@ -1,3 +1,4 @@
+// const video = require("wdio-video-reporter");
 exports.config = {
   //
   // ====================
@@ -140,14 +141,15 @@ exports.config = {
   // The only one supported by default is 'dot'
   // see also: https://webdriver.io/docs/dot-reporter
   reporters: [
-    [
-      "allure",
-      {
-        outputDir: "allure-results",
-        disableWebdriverStepsReporting: true,
-        disableWebdriverScreenshotsReporting: true,
-      },
-    ],
+    // [video, {
+    //   saveAllVideos: true,       // If true, also saves videos for successful test cases
+    //   videoSlowdownMultiplier: 1, // Higher to get slower videos, lower for faster videos [Value 1-100]
+    // }],
+    ['allure', {
+      outputDir: './_results_/allure-raw',
+      disableWebdriverStepsReporting: true,
+      disableWebdriverScreenshotsReporting: true,
+    }]
   ],
 
   //
@@ -155,7 +157,7 @@ exports.config = {
   // See the full list at http://mochajs.org/
   mochaOpts: {
     ui: "bdd",
-    timeout: 60000999,
+    timeout: 60000,
   },
   //
   // =====

@@ -38,12 +38,12 @@ class Homepage {
     }
 
     // Helper method to select rental start date
-    async selectFromDate() {
+    selectFromDate() {
         // Click on From Date calendar input box
         this.$fromDateCalendar.waitForClickable();
         this.$fromDateCalendar.click();
         // Wait for calendar is opened and pick dates are visible
-        await browser.waitUntil(() => {
+        browser.waitUntil(() => {
             return this.$$daysFromCurrentAndNextMonth.map((elem) => elem.isDisplayed()).length > 28;          
         }, { timeout: 10000, timeoutMsg: 'Twenty nine elements were not visible' });
         // Pick the random date
@@ -51,12 +51,12 @@ class Homepage {
     }
 
     // Helper method to select rental end date
-    async selectToDate() {
+    selectToDate() {
         // Click on To Date calendar input box
         this.$toDateCalendar.waitForClickable();
         this.$toDateCalendar.click();
         // Wait for calendar is opened and pick dates are visible
-        await browser.waitUntil(() => {
+        browser.waitUntil(() => {
             return this.$$daysFromCurrentAndNextMonth.map((elem) => elem.isDisplayed()).length > 28;          
         }, { timeout: 10000, timeoutMsg: 'Twenty nine elements were not visible' });
         // Pick the random date

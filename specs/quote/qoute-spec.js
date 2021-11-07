@@ -16,7 +16,7 @@ describe("Rentalcover.com", () => {
     // Type in country name
     Homepage.selectCountry("United States");
 
-    // Type in country name
+    // Select vehicle type
     Homepage.$changeCarTypeBtn.waitForDisplayed();
     Homepage.selectVehicleType(vehicleType.fourByFour);
 
